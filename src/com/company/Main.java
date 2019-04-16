@@ -44,13 +44,13 @@ public class Main {
         int var1, var2;
 
 	    Scanner scnr = new Scanner(System.in);
-        System.out.println("Enter Number: ");
+        System.out.println("Enter Numbers: ");
         var1 = scnr.nextInt();
         var2 = scnr.nextInt();
         System.out.println("Addition of two numbers is: " + addition(var1, var2));
-        System.out.println("Addition of two numbers is: " + subtraction(var1, var2));
-        System.out.println("Addition of two numbers is: " + multiplication(var1, var2));
-        System.out.println("Addition of two numbers is: " + division(var1, var2));
+        System.out.println("Subtraction of two numbers is: " + subtraction(var1, var2));
+        System.out.println("Multiplication of two numbers is: " + multiplication(var1, var2));
+        System.out.println("Division of two numbers is: " + division(var1, var2));
 
     }
 }
