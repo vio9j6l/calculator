@@ -23,19 +23,9 @@ public class Main {
      * @since           2019-04-16
      *
      */
-
-    public static int addition(int var1, int var2) {
-        return var1 + var2;
-    }
-
-    public static int subtraction(int var1, int var2) {
-        return var1 - var2;
-    }
-
-    public static int multiplication(int var1, int var2) {
-        return var1 * var2;
-    }
-
+    public static int addition(int var1, int var2) { return var1 + var2; }
+    public static int subtraction(int var1, int var2) { return var1 - var2; }
+    public static int multiplication(int var1, int var2) { return var1 * var2; }
     public static int division(int var1, int var2) {
         return var1 / var2;
     }
