@@ -25,19 +25,32 @@ public class Main {
      */
 
     public static int addition(int var1, int var2) {
-        //int result = var1 + var2;
         return var1 + var2;
     }
 
+    public static int subtraction(int var1, int var2) {
+        return var1 - var2;
+    }
+
+    public static int multiplication(int var1, int var2) {
+        return var1 * var2;
+    }
+
+    public static int division(int var1, int var2) {
+        return var1 / var2;
+    }
+
     public static void main(String[] args) {
-        int var1, var2, result;
-        //var1 = 5;
-        //var2 = 5;
+        int var1, var2;
+
 	    Scanner scnr = new Scanner(System.in);
         System.out.println("Enter Number: ");
         var1 = scnr.nextInt();
         var2 = scnr.nextInt();
-        //result = add(var1, var2);
         System.out.println("Addition of two numbers is: " + addition(var1, var2));
+        System.out.println("Addition of two numbers is: " + subtraction(var1, var2));
+        System.out.println("Addition of two numbers is: " + multiplication(var1, var2));
+        System.out.println("Addition of two numbers is: " + division(var1, var2));
+
     }
 }
