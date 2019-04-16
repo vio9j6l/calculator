@@ -17,31 +17,31 @@ public class MainTest {
 
     @org.junit.Test
     public void subtractionUnitTestTrue() {
-        assertTrue(Main.addition(10, 5) == 5);
+        assertTrue(Main.subtraction(10, 5) == 5);
     }
 
     @org.junit.Test
     public void subtractionUnitTestFalse() {
-        assertFalse(Main.addition(10, 5) == 10);
+        assertFalse(Main.subtraction(10, 5) == 10);
     }
 
     @org.junit.Test
     public void multiplicationUnitTestTrue() {
-        assertTrue(Main.addition(5, 5) == 25);
+        assertTrue(Main.multiplication(5, 5) == 25);
     }
 
     @org.junit.Test
     public void multiplicationUnitTestFalse() {
-        assertFalse(Main.addition(5, 5) == 10);
+        assertFalse(Main.multiplication(5, 5) == 10);
     }
 
     @org.junit.Test
     public void divisionUnitTestTrue() {
-        assertTrue(Main.addition(25, 5) == 5);
+        assertTrue(Main.division(25, 5) == 5);
     }
 
     @org.junit.Test
     public void divisionUnitTestFalse() {
-        assertFalse(Main.addition(25, 5) == 10);
+        assertFalse(Main.division(25, 5) == 10);
     }
 }
